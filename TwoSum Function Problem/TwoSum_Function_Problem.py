@@ -12,6 +12,9 @@ class Solution:
 
 S_Object = Solution()
 
-print(S_Object.twoSum([2, 7, 11, 15], 9))
+print(S_Object.twoSum([2, 7, 11, 15], 9)) 
+# expected out come is [0,1]
 print(S_Object.twoSum([2, 7, 11, 15], 12))
+# expected out come is []
 print(S_Object.twoSum([2, 7, 11, 15], 22))
+# expected out come is[1,3]
